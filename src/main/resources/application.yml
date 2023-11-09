@@ -1,0 +1,12 @@
+
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: rootuser
+      password: rootpass
+      database: db_mongo
+      port: 27017
+      host: localhost
+mongock:
+  change-logs-scan-package: com.pblgllgs.mongo.config
